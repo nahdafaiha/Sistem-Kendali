@@ -16,20 +16,20 @@ Untuk menghitung routh table menggunakan fungsi orde, kolom, tabel, dan stabil.
 
 Kemudian fungsi perulangan  dibawah ini digunakan untuk melihat apakah fungsi polinomial stabil atau tidak. 
 
-   for row = 1:orde
-        for col = 1:kolom
-            if row < 3
-                r = col;
-                c = row;
-                tabel(r,c) = polinomial(i);
-                i = i + 1;
-            else
-                if col ~= kolom
-                    r = row;
-                    c = col;
-                    tabel(r, c) = (tabel(row-1,1)*tabel(row-2,col+1)-tabel(row-2,1)*tabel(row-1,col+1))/tabel(row-1,1);
+    for row = 1:orde
+          for col = 1:kolom
+             if row < 3
+                 r = col;
+                    c = row;
+                    tabel(r,c) = polinomial(i);
+                  i = i + 1;
+              else
+                    if col ~= kolom
+                      r = row;
+                        c = col;
+                        tabel(r, c) = (tabel(row-1,1)*tabel(row-2,col+1)-tabel(row-2,1)*tabel(row-1,col+1))/tabel(row-1,1);
+                    end
                 end
-            end
         
             if tabel(r, 1) < 0
                 stabil = false;
