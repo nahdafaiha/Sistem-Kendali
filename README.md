@@ -7,6 +7,7 @@ Program ini dapat menampilkan polinomial, stabilitas menggunakan routh table.
 Fungsi poly2sym(polinomial) digunakan untuk menampilkan polinomial pada fungsi.
 
 Untuk menghitung routh table menggunakan fungsi orde, kolom, tabel, dan stabil. 
+
     orde = length(polinomial);
     kolom = floor((orde+1)/2);
     Tabel = zeros(orde, kolom);
