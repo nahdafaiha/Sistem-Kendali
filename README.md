@@ -1,8 +1,8 @@
 # Sistem-Kendali
 Program ini dapat menampilkan polinomial, stabilitas menggunakan routh table. 
 
-Program ini akan menginput nilai K :
-K = input('masukan nilai koefisien K = ');
+    Program ini akan menginput nilai K :
+    K = input('masukan nilai koefisien K = ');
 
 Fungsi poly2sym(polinomial) digunakan untuk menampilkan polinomial pada fungsi.
 
