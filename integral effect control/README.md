@@ -30,19 +30,19 @@ Untuk menganalisis respon dari input ramp, impulse, dan step dapat menggunakan f
     stepinfo(fungsi/s)
 
 Berikut merupakan respon dengan menggunakan kp = 1 dan Ki = 1
-[alt text](ki1.png)
+![alt text](ki1.png)
 
 Berikut merupakan respon dengan menggunakan kp = 1 dan Ki = 3
-[alt text](ki3.png)
+![alt text](ki3.png)
 
 Berikut merupakan respon dengan menggunakan kp = 1 dan Ki = 5
-[alt text](ki5.png)
+![alt text](ki5.png)
 
 Berikut merupakan respon dengan menggunakan kp = 1 dan Ki = 7
-[alt text](ki7.png)
+![alt text](ki7.png)
 
 Berikut merupakan respon dengan menggunakan kp = 1 dan Ki = 9
-[alt text](ki9.png)
+![alt text](ki9.png)
 
 Berikut merupakan analysis dari respon diatas
-[alt text](analysis.png)
+![alt text](analysis.png)
