@@ -1,3 +1,6 @@
+
+https://github.com/nahdafaiha/Sistem-Kendali/tree/main/integral%20effect%20control
+
 mendeklarasikan variable variable yang dibutuhkan dalam integral effect control, seperti T, sys(fungsi transfer), Kp, Ki untuk mencari gain dalam fungsi feedback. 
     s = tf('s')
     T = 1;
