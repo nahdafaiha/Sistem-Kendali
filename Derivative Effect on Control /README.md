@@ -1,3 +1,7 @@
+link github:
+https://github.com/nahdafaiha/Sistem-Kendali/tree/main/Derivative%20Effect%20on%20Control%20
+
+
 Mendeklarasikan variable yang akan digunakan 
 
     s = tf('s')
