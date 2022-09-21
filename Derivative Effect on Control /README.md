@@ -80,7 +80,7 @@ Fungsi feedback yang dihasilkan seperti berikut
 ![alt text](feedback(KD1).png)
 
 2. Nilai KP =1  dan KD = 3
-![alt text](feedback(KD3).png)
+![alt text]((KD3).png)
 
 3. Nilai KP =1  dan KD = 5
 ![alt text](feedback(KD5).png)
