@@ -78,23 +78,23 @@ Untuk mengetahui nilai risetime, overshoot, settling time dan juga steady state 
 Fungsi feedback yang dihasilkan seperti berikut 
 1. Nilai KP =1  dan KD = 1
 
-![alt text](feedback(KD1).png)
+    ![alt text](feedback(KD1).png)
 
 2. Nilai KP =1  dan KD = 3
 
-![alt text]((KD3).png)
+    ![alt text]((KD3).png)
 
 3. Nilai KP =1  dan KD = 5
 
-![alt text](feedback(KD5).png)
+    ![alt text](feedback(KD5).png)
 
 4. Nilai KP =1  dan KD = 7
 
-![alt text](feedback(KD7).png)
+    ![alt text](feedback(KD7).png)
 
 5. Nilai KP =1  dan KD = 9
 
-![alt text](feedback(KD9).png)
+    ![alt text](feedback(KD9).png)
 
 
 Grafik dari respon sistem 
