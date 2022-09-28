@@ -1,3 +1,5 @@
+Link https://github.dev/nahdafaiha/Sistem-Kendali
+
 Mendeklarasikan variable yang akan digunakan 
 
          J = 0.01;
