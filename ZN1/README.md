@@ -1,4 +1,5 @@
 Mendeklarasikan variable yang akan digunakan 
+
          J = 0.01;
           b = 0.1;
           K = 0.01
@@ -7,22 +8,26 @@ Mendeklarasikan variable yang akan digunakan
           s = tf('s');
 
 Mendeklarasikan sistem yang akan digunakan
+
          num = K;
          den = [J*L,((b*L)+(J*R)),((b*R)+(K*K))];
          sys = tf(num,den)/s
 
 Mendeklarasikan tunning variable
+
             use_p = 1;
             use_i = 1;
             use_d = 1;
 
 Mendeklarasikan time delay dan time constant
+
          delay_t = 1;
          constant_t = 10;
 
 
 
 Proses tunning ZN untuk mendapatkan nilai KI,KP,KD 
+
         if(use_p)
             if(use_i)
                 if(use_d)
@@ -47,6 +52,7 @@ Proses tunning ZN untuk mendapatkan nilai KI,KP,KD
 
 
 Kemudian membuat fungsi sistem kontrol berdasarkan KP dan KD yanng telah ditentukan dan juga fungsi feedback 
+
             sys_c = tf([kd,kp,ki],[1 0])
             complate = feedback(sys*sys_c,1)
 
