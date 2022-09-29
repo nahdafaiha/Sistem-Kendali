@@ -1,4 +1,4 @@
-Link https://github.dev/nahdafaiha/Sistem-Kendali
+Link https://github.com/nahdafaiha/Sistem-Kendali/tree/main/ZN1%20dan%20TL%20
 
 
 Tunning PID meggunakan ZN 1 
